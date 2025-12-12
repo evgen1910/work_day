@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>Дима: рабочий день</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="hud">
+    <div id="msg"></div>
+    <div id="meter"></div>
+  </div>
+
+  <canvas id="c"></canvas>
+
+  <!-- Мобильные кнопки управления -->
+  <div id="controls" aria-label="controls">
+    <button id="left"  class="ctl">←</button>
+    <button id="right" class="ctl">→</button>
+    <button id="jump"  class="ctl primary">⤒</button>
+    <button id="act"   class="ctl danger">Действие</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
